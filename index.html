@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <p id="event"></p>
+        <table>
+            <tbody>
+                <tr>
+                    <td><input type="button" value="1" onclick="selectBox('1')" /></td>
+                    <td><input type="button" value="2" onclick="selectBox('2')" /></td>
+                    <td><input type="button" value="3" onclick="selectBox('3')" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="selectBox('4')" /></td>
+                    <td><input type="button" value="5" onclick="selectBox('5')" /></td>
+                    <td><input type="button" value="6" onclick="selectBox('6')" /></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="selectBox('7')" /></td>
+                    <td><input type="button" value="8" onclick="selectBox('8')" /></td>
+                    <td><input type="button" value="9" onclick="selectBox('9')" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="showScore()">Show score</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
